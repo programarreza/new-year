@@ -44,7 +44,7 @@
 
 /* about section */
 section {
-	padding: 0 150px;
+	padding: 0 100px;
 	margin-bottom: 100px;
 }
 .about {
@@ -121,42 +121,6 @@ ul li i{
 .contact-title, .btn-primary {
 	margin: 60px 0 0 65px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-.contact-text {
-	padding: 60px;
-}
-.contact-title {
-	color: #111010;
-	font-size: 40px;
-	font-weight: 700;
-}
-*/
 .btn-primary {
 	padding: 15px 25px;
 	color: #F15B22;
@@ -166,4 +130,60 @@ ul li i{
 	border: none;
 	border-radius: 5px;
 	margin-top: 25px ;
-} 
+}
+/* footer content */
+footer{
+	background: #151414;
+	color: #fff;
+	padding: 100px 100px;
+}
+.footer-container {
+	display: flex;
+	gap: 400px;
+}
+
+.footer-title {
+	color: #F8F8F8;
+	font-size: 45px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.foot-description {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #fff;
+	margin-bottom: 25px;
+}
+.footer-container span {
+	display: flex;
+	margin-bottom: 20px;
+}
+.social-link {
+	margin-top: 50px;
+}
+.social-link img {
+	margin-right: 20px;
+}
+.form-title {
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.footer-form .email {
+	width: 100%;
+	padding: 15px;
+	border: 1px solid #fff;
+	background-color: #151414;
+	border-radius: 5px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.form-btn {
+	padding: 10px 20px;
+	color: #F15B22;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	font-size: 20px;
+}
